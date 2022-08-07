@@ -5,8 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>楽譜</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div >
+<div class="music">楽譜</div>
 </body>
 </html>
