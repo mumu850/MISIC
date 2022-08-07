@@ -3,3 +3,29 @@
 .music{
 	color:black;
 }
+header{
+	background-color: #d9d9d9;
+}
+
+.score{
+	text-align: center;
+	zoom:180%;
+}
+.button{
+	display: flex;
+	font-size: 4em;
+}
+
+
+.stop{
+	padding-left: 30px;
+
+}
+
+.play{
+	padding-left:45vw;
+}
+
+.back a{
+	text-decoration: none;
+}
