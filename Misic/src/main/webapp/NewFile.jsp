@@ -15,10 +15,10 @@
 </header>
 <body>
 <div class="score">
-<img alt="楽譜画像" src="アイネクライネナハトムジーク.png" >
+<img alt="楽譜画像" src="EinekleineNachtmusik.png" >
 </div>
 <div class="button">
-<div class="play">▶</div>
+<button class="play">▶</button></div>
 <div class="stop">||</div>
 </div>
 </body>
