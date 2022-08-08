@@ -10,7 +10,9 @@
 </head>
 <header>
 <div class="back">
-<a  href="/WEB-INF/index.html">></a>
+<form action="startServlet" method="get">
+<a  href="index.html">></a>
+</form>
 </div>
 </header>
 <body>
@@ -18,8 +20,8 @@
 <img alt="楽譜画像" src="EinekleineNachtmusik.png" >
 </div>
 <div class="button">
-<button class="play">▶</button></div>
-<div class="stop">||</div>
+<button class="play">▶</button>
+<button class="stop">||</button>
 </div>
 </body>
 </html>

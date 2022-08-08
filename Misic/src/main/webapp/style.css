@@ -13,17 +13,15 @@ header{
 }
 .button{
 	display: flex;
-	font-size: 4em;
 }
 
 
 .stop{
-	padding-left: 30px;
 
 }
 
 .play{
-	padding-left:45vw;
+	margin-left:45vw;
 }
 
 .back a{
