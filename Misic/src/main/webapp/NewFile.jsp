@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,20 +9,24 @@
 
 </head>
 <header>
-<div class="back">
-<form action="startServlet" method="get">
-<a  href="index.html">></a>
-</form>
-</div>
+	<div class="back">
+		<form action="startServlet" method="get">
+			<a href="index.html">></a>
+		</form>
+	</div>
 </header>
 <body>
-<div class="score">
-<img alt="楽譜画像" src="EinekleineNachtmusik.png" >
+	<div class="scroll">
+		<div class="score">
+			<div class="bar"></div>
+			<img alt="楽譜画像" src="./img/EinekleineNachtmusik1.png">
+			<div class="button">
+				<button class="play">▶</button>
+				<button class="stop">||</button>
+			</div>
+		</div>
+	</div>
 
-</div>
-<div class="button">
-<button class="play">▶</button>
-<button class="stop">||</button>
-</div>
+
 </body>
 </html>

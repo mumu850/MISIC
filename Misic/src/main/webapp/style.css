@@ -8,20 +8,36 @@ header{
 }
 
 .score{
+	position: relative;
 	text-align: center;
 	zoom:180%;
+	z-index: 8;
+}
+
+.score img{
+	width:100%;
+
+}
+
+.bar {
+	position: absolute;
+	top:1vh;
+	left:7.9vw;
+  width: 2px;
+  height: 9vw;
+  background-color: red;
+  z-index: 9;
 }
 .button{
 	display: flex;
+	margin-left: 24vw;
 }
-
-
 .stop{
 
 }
 
 .play{
-	margin-left:45vw;
+
 }
 
 .back a{
