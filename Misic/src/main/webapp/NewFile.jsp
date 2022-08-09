@@ -16,17 +16,30 @@
 	</div>
 </header>
 <body>
+
 	<div class="scroll">
 		<div class="score">
+			<ul class="scoreArray" style="list-style: none">
+				<li><img alt="楽譜画像" id="score"
+					src="./img/EinekleineNachtmusik1.png"></li>
+				<li><img alt="楽譜画像" id="score"
+					src="./img/EinekleineNachtmusik2.png"></li>
+				<li><img alt="楽譜画像" id="score"
+					src="./img/EinekleineNachtmusik3.png"></li>
+				<li><img alt="楽譜画像" id="score"
+					src="./img/EinekleineNachtmusik4.png"></li>
+				<li><img alt="楽譜画像" id="score"
+					src="./img/EinekleineNachtmusik5.png"></li>
+				<li><img alt="楽譜画像" id="score"
+					src="./img/EinekleineNachtmusik6.png"></li>
+			</ul>
 			<div class="bar"></div>
-			<img alt="楽譜画像" src="./img/EinekleineNachtmusik1.png">
 			<div class="button">
 				<button class="play">▶</button>
 				<button class="stop">||</button>
 			</div>
 		</div>
 	</div>
-
 
 </body>
 </html>

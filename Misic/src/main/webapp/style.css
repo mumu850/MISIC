@@ -15,7 +15,7 @@ header{
 }
 
 .score img{
-	width:100%;
+	width:450px;
 
 }
 
@@ -42,4 +42,17 @@ header{
 
 .back a{
 	text-decoration: none;
+}
+
+.scoreArray{
+	display: flex;
+	 animation: loop-slide 20s infinite linear 1s both;
+}
+@keyframes loop-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
