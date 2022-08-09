@@ -21,10 +21,10 @@ header{
 
 .bar {
 	position: absolute;
-	top:1vh;
+	top:1.4vh;
 	left:7.9vw;
   width: 2px;
-  height: 9vw;
+  height: 12vw;
   background-color: red;
   z-index: 9;
 }
@@ -37,7 +37,6 @@ header{
 }
 
 .play{
-
 }
 
 .back a{
@@ -46,7 +45,9 @@ header{
 
 .scoreArray{
 	display: flex;
-	 animation: loop-slide 20s infinite linear 1s both;
+	 animation: loop-slide 40s infinite linear 1s both;
+	     width: 450vw;
+
 }
 @keyframes loop-slide {
   from {
