@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+document.write("<p>JavaScriptのテスト</p>");
+/**
+*midiファイルを読み込んで16進数テキストを返します。
+*@param {string} filepath 読み込むMIDIファイルのパス
+*@callback コールバック
+*@return {string} 16進数テキスト
+**/
+var fs=require("fs");
+
+module.exports=function(filepath,callback){
+    fs.readFile(filepath,function(err,data){
+      if(err) throw err;
+      //読み込んだデータを16進数テキストに変換(小文字は大文字に変換)
+      var hexString = Buffer(data).toString("hex").toUpperCase();
+      callback(hexString);
+    });
+    
+    var  header ={
+            //チャンクタイプ
+            chunktype:data.substring(0,8),
+            //ヘッダサイズ
+            headersize : data.substring(9,16),
+            //SMFフォーマット
+            format : data.substring(16,20),
+            //トラックの数
+            tracksize : data.substring(20,24),
+            //時間単位
+            timeunit : data.substring(24,28),
+        }
+        console.dir(header);
+}
+
+
+</script>
+
+</body>
+</html>

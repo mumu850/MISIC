@@ -24,7 +24,7 @@ header{
 	top:1.4vh;
 	left:7.9vw;
   width: 2px;
-  height: 12vw;
+  height: 12vh;
   background-color: red;
   z-index: 9;
 }
@@ -45,7 +45,7 @@ header{
 
 .scoreArray{
 	display: flex;
-	 animation: loop-slide 40s infinite linear 1s both;
+	 animation: loop-slide 60s infinite linear 1s both;
 	     width: 450vw;
 
 }
